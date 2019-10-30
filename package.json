@@ -1,0 +1,23 @@
+{
+  "name": "invoices-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.559.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-localstack": "^0.4.19",
+    "serverless-webpack": "^5.3.1"
+  },
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
+}
